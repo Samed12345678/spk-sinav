@@ -1,0 +1,77 @@
+{
+  "dersAdi": "Sermaye Piyasası Kanunu",
+  "questions": [
+    {
+      "id": 1,
+      "badge": "📘 1.1.1 · Sermaye Piyasası Tanımı",
+      "question": "Sermaye piyasası, aşağıdaki piyasa türlerinden hangisiyle birlikte finans piyasasının alt türünü oluşturur?",
+      "options": ["Vadeli piyasa", "Para piyasası", "Kambiyo piyasası", "Sigorta piyasası"],
+      "correctIndex": 1,
+      "likes": 234,
+      "comments": 12,
+      "explanation": "Sermaye piyasası, para piyasası ile birlikte finans piyasasının iki ana alt türünden biridir. 📍 Kaynak: SPKn ders notları sayfa 5.",
+      "slides": [
+        {
+          "title": "📚 Sermaye Piyasası Nedir?",
+          "content": "<p>Sermaye piyasası, orta ve uzun vadeli fonların, sermaye piyasası araçları aracılığıyla tasarruf sahiplerinden fon talep edenlere aktarıldığı piyasadır.</p><ul><li>🔑 Para piyasası ile birlikte finans piyasasını oluşturur.</li><li>📌 Birincil ve ikincil piyasa olarak ikiye ayrılır.</li></ul>"
+        },
+        {
+          "title": "📖 Birincil ve İkincil Piyasa",
+          "content": "<div class='highlight-box'><strong>Birincil Piyasa:</strong> Sermaye piyasası araçlarının ilk kez ihraç edildiği piyasadır.</div><div class='highlight-box green'><strong>İkincil Piyasa:</strong> Daha önce ihraç edilmiş araçların yatırımcılar arasında el değiştirdiği piyasadır.</div><ul><li>💡 Likidite, fiyat belirleme ve vade belirleme ikincil piyasanın fonksiyonlarıdır.</li></ul>"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "badge": "📘 1.1.4.4.3 · Kayıtlı Sermaye Sistemi",
+      "question": "Kayıtlı sermaye sisteminde yönetim kurulunun sermaye artırım yetkisi en fazla kaç yıl süreyle verilebilir?",
+      "options": ["3 yıl", "4 yıl", "5 yıl", "10 yıl"],
+      "correctIndex": 2,
+      "likes": 567,
+      "comments": 23,
+      "explanation": "Genel kurul, yönetim kuruluna bu yetkiyi en çok <strong>5 yıllık</strong> dönemler için verebilir. Süre, genel kurul kararıyla uzatılabilir ancak her uzatma da en fazla 5 yıllıktır. 📍 Kaynak: SPKn md. 3/1-l (sayfa 33).",
+      "slides": [
+        {
+          "title": "📚 Kayıtlı Sermaye Sistemi",
+          "content": "<p style='font-size:18px; font-weight:600; color:#003399;'>\"Genel kurul kararı olmadan sermaye artırımı mümkün mü?\"</p><div style='margin-top:20px; background:#e6edf9; padding:20px; border-radius:16px; text-align:center;'><span style='font-size:48px;'>⬅️</span> Kaydırmaya devam edin...</div>"
+        },
+        {
+          "title": "📖 Tanım",
+          "content": "<div class='highlight-box'><strong>Kayıtlı sermaye sistemi:</strong> Anonim şirketlerin, esas sözleşmede belirlenen tavan dahilinde, <strong>YÖNETİM KURULU</strong> kararıyla sermaye artırabilmesidir.</div><ul><li>🔑 <strong>Kilit nokta:</strong> Genel kurul kararı gerekmez.</li><li>📍 Kaynak: SPKn md. 3/1-l (sayfa 33)</li></ul>"
+        },
+        {
+          "title": "⏳ Yetki Süresi",
+          "content": "<div class='highlight-box orange'>⏰ Genel kurul, yönetim kuruluna bu yetkiyi <strong>EN FAZLA 5 YIL</strong> süreyle verebilir.</div><ul><li>🔄 5 yıl sonunda genel kurul kararıyla süre <strong>uzatılabilir</strong>.</li><li>📌 Uzatma da maksimum 5 yıllık dönemler halinde olur.</li></ul>"
+        },
+        {
+          "title": "⚡ Özel Yetkiler",
+          "content": "<p>Yönetim kurulu aşağıdakileri <strong>ANCAK</strong> esas sözleşmede yetki varsa yapabilir:</p><ul><li>1️⃣ İmtiyazlı pay çıkarılması</li><li>2️⃣ Nominal değerin üzerinde/altında pay çıkarılması</li><li>3️⃣ Yeni pay alma haklarının sınırlandırılması</li></ul><div class='highlight-box' style='border-left-color:#ff3b30;'>❌ <strong>Yasak:</strong> Pay sahipleri arasında eşitsizlik yaratılamaz.</div>"
+        },
+        {
+          "title": "🧠 Hafıza Tekniği",
+          "content": "<div style='background:#fff6e5; border-radius:16px; padding:20px; text-align:center; font-size:22px; font-weight:700; color:#003399;'>\"5 yıl yetki, 5 yıl uzat, 30 gün dava\"</div><div style='margin-top:16px;'><p>🔢 <strong>3 sayı:</strong> <span style='font-size:24px; font-weight:800;'>5 - 5 - 30</span></p></div>"
+        },
+        {
+          "title": "📌 Özet",
+          "content": "<ul><li>✅ Sermaye artırımı: <strong>Yönetim Kurulu</strong></li><li>⏳ Yetki süresi: <strong>5 yıl</strong> (uzatılabilir)</li><li>⚡ Özel yetkiler: <strong>Esas sözleşme</strong> şart</li><li>⚖️ İptal davası: <strong>30 gün</strong></li></ul><div style='margin-top:16px; background:#f0f4ff; padding:14px; border-radius:12px;'>📖 PDF Sayfa: <strong>33</strong> &nbsp;|&nbsp; 📜 Kanun Md.: <strong>SPKn 3/1-l, 34</strong></div>"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "badge": "📘 1.1.4.4.2 · Halka Açık Ortaklıklar",
+      "question": "Pay sahibi sayısı kaçı aşan anonim ortaklıkların payları halka arz edilmiş sayılır?",
+      "options": ["250", "500", "1000", "2000"],
+      "correctIndex": 1,
+      "likes": 890,
+      "comments": 45,
+      "explanation": "6362 sayılı SPKn md. 16'ya göre, pay sahibi sayısı <strong>500</strong>'ü aşan anonim ortaklıkların payları halka arz edilmiş sayılır. 📍 Kaynak: SPKn sayfa 32.",
+      "slides": [
+        {
+          "title": "📚 Halka Açık Ortaklık",
+          "content": "<p><strong>Halka açık ortaklık:</strong> Payları halka arz edilmiş veya halka arz edilmiş sayılan anonim ortaklıklardır.</p><ul><li>🔑 500 ortak sınırı</li><li>📌 Borsada işlem görme zorunluluğu</li></ul>"
+        }
+      ]
+    }
+  ]
+}
