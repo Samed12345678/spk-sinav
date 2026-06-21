@@ -1,77 +1,247 @@
 {
-  "dersAdi": "Sermaye Piyasası Kanunu",
-  "questions": [
+  "moduller": [
     {
       "id": 1,
-      "badge": "📘 1.1.1 · Sermaye Piyasası Tanımı",
-      "question": "Sermaye piyasası, aşağıdaki piyasa türlerinden hangisiyle birlikte finans piyasasının alt türünü oluşturur?",
-      "options": ["Vadeli piyasa", "Para piyasası", "Kambiyo piyasası", "Sigorta piyasası"],
-      "correctIndex": 1,
-      "likes": 234,
-      "comments": 12,
-      "explanation": "Sermaye piyasası, para piyasası ile birlikte finans piyasasının iki ana alt türünden biridir. 📍 Kaynak: SPKn ders notları sayfa 5.",
-      "slides": [
+      "baslik": "Geniş Kapsamlı Sermaye Piyasası Mevzuatı ve Meslek Kuralları",
+      "ikon": "📘",
+      "renk": "#003399",
+      "konular": [
         {
-          "title": "📚 Sermaye Piyasası Nedir?",
-          "content": "<p>Sermaye piyasası, orta ve uzun vadeli fonların, sermaye piyasası araçları aracılığıyla tasarruf sahiplerinden fon talep edenlere aktarıldığı piyasadır.</p><ul><li>🔑 Para piyasası ile birlikte finans piyasasını oluşturur.</li><li>📌 Birincil ve ikincil piyasa olarak ikiye ayrılır.</li></ul>"
+          "id": 1,
+          "baslik": "Sermaye Piyasası Kavramı ve Unsurları",
+          "sorular": [
+            {
+              "soru": "Sermaye piyasası, aşağıdaki piyasa türlerinden hangisiyle birlikte finans piyasasının alt türünü oluşturur?",
+              "secenekler": ["Vadeli piyasa", "Para piyasası", "Kambiyo piyasası", "Sigorta piyasası"],
+              "dogru": 1,
+              "aciklama": "Sermaye piyasası, para piyasası ile birlikte finans piyasasının alt türünü oluşturur. (sayfa 5)"
+            },
+            {
+              "soru": "Aşağıdakilerden hangisi sermaye piyasasının fonksiyonları arasında yer almaz?",
+              "secenekler": ["Reel piyasaya kaynak sağlamak", "Sermaye birikimi oluşturmak", "Kısa vadeli ödünç para arzını düzenlemek", "Mülkiyeti tabana yaymak"],
+              "dogru": 2,
+              "aciklama": "Kısa vadeli ödünç para arzını düzenlemek para piyasasının fonksiyonudur. (sayfa 5)"
+            },
+            {
+              "soru": "Sermaye piyasası araçlarının ihraççısı tarafından ilk defa piyasaya çıkarılarak alıcılara satıldığı piyasaya ne ad verilir?",
+              "secenekler": ["İkincil piyasa", "Organize piyasa", "Birincil piyasa", "Tezgâh üstü piyasa"],
+              "dogru": 2,
+              "aciklama": "Birincil piyasa, sermaye piyasası araçlarının ilk kez satıldığı piyasadır. (sayfa 5-6)"
+            }
+          ]
         },
         {
-          "title": "📖 Birincil ve İkincil Piyasa",
-          "content": "<div class='highlight-box'><strong>Birincil Piyasa:</strong> Sermaye piyasası araçlarının ilk kez ihraç edildiği piyasadır.</div><div class='highlight-box green'><strong>İkincil Piyasa:</strong> Daha önce ihraç edilmiş araçların yatırımcılar arasında el değiştirdiği piyasadır.</div><ul><li>💡 Likidite, fiyat belirleme ve vade belirleme ikincil piyasanın fonksiyonlarıdır.</li></ul>"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "badge": "📘 1.1.4.4.3 · Kayıtlı Sermaye Sistemi",
-      "question": "Kayıtlı sermaye sisteminde yönetim kurulunun sermaye artırım yetkisi en fazla kaç yıl süreyle verilebilir?",
-      "options": ["3 yıl", "4 yıl", "5 yıl", "10 yıl"],
-      "correctIndex": 2,
-      "likes": 567,
-      "comments": 23,
-      "explanation": "Genel kurul, yönetim kuruluna bu yetkiyi en çok <strong>5 yıllık</strong> dönemler için verebilir. Süre, genel kurul kararıyla uzatılabilir ancak her uzatma da en fazla 5 yıllıktır. 📍 Kaynak: SPKn md. 3/1-l (sayfa 33).",
-      "slides": [
-        {
-          "title": "📚 Kayıtlı Sermaye Sistemi",
-          "content": "<p style='font-size:18px; font-weight:600; color:#003399;'>\"Genel kurul kararı olmadan sermaye artırımı mümkün mü?\"</p><div style='margin-top:20px; background:#e6edf9; padding:20px; border-radius:16px; text-align:center;'><span style='font-size:48px;'>⬅️</span> Kaydırmaya devam edin...</div>"
+          "id": 2,
+          "baslik": "6362 sayılı Sermaye Piyasası Kanunu",
+          "sorular": [
+            {
+              "soru": "6362 sayılı SPKn’ya göre 'ihraççı' aşağıdakilerden hangisidir?",
+              "secenekler": ["Tasarruflarını sermaye piyasası araçlarına yatıran gerçek kişiler", "Sermaye piyasası araçlarını ihraç eden tüzel kişiler ve Kanuna tabi yatırım fonları", "Yatırım kuruluşları", "Borsalar"],
+              "dogru": 1,
+              "aciklama": "İhraççı, sermaye piyasası araçlarını ihraç eden tüzel kişiler ve yatırım fonlarıdır. (sayfa 7)"
+            },
+            {
+              "soru": "Aşağıdakilerden hangisi 'fon arz edenler' kapsamında değerlendirilir?",
+              "secenekler": ["İhraççılar", "Tasarruf sahipleri ve yatırımcılar", "Aracı kurumlar", "Borsalar"],
+              "dogru": 1,
+              "aciklama": "Fon arz edenler, tasarruf sahipleri ve yatırımcılardır. (sayfa 7)"
+            }
+          ]
         },
         {
-          "title": "📖 Tanım",
-          "content": "<div class='highlight-box'><strong>Kayıtlı sermaye sistemi:</strong> Anonim şirketlerin, esas sözleşmede belirlenen tavan dahilinde, <strong>YÖNETİM KURULU</strong> kararıyla sermaye artırabilmesidir.</div><ul><li>🔑 <strong>Kilit nokta:</strong> Genel kurul kararı gerekmez.</li><li>📍 Kaynak: SPKn md. 3/1-l (sayfa 33)</li></ul>"
+          "id": 3,
+          "baslik": "Sermaye Piyasası Araçları (Menkul Kıymetler, Türev Araçlar, Kaydi Sistem)",
+          "sorular": [
+            {
+              "soru": "6362 sayılı SPKn’ya göre menkul kıymetler kaç ana kategori altında sınıflandırılmıştır?",
+              "secenekler": ["2", "3", "4", "5"],
+              "dogru": 1,
+              "aciklama": "Menkul kıymetler 3 ana kategori altında sınıflandırılmıştır. (sayfa 14)"
+            },
+            {
+              "soru": "Aşağıdakilerden hangisi menkul kıymet sayılmaz?",
+              "secenekler": ["Pay", "Borçlanma aracı", "Varant", "Depo sertifikası"],
+              "dogru": 2,
+              "aciklama": "Varant türev araçtır, menkul kıymet değildir. (sayfa 14-15)"
+            },
+            {
+              "soru": "Kaydi sisteme ilişkin aşağıdaki ifadelerden hangisi doğrudur?",
+              "secenekler": ["Tüm sermaye piyasası araçları zorunlu olarak kaydi sisteme tabidir.", "Kaydi sistemde araçlar fiziki olarak teslim edilir.", "Kaydi sistemde hak sahipleri itibarıyla hesaplar MKK’da tutulur.", "Kaydi sistemde nama yazılı araçlar için hesap açılamaz."],
+              "dogru": 2,
+              "aciklama": "Kaydi sistemde hak sahipleri bazında hesaplar MKK'da tutulur. (sayfa 16-17)"
+            }
+          ]
         },
         {
-          "title": "⏳ Yetki Süresi",
-          "content": "<div class='highlight-box orange'>⏰ Genel kurul, yönetim kuruluna bu yetkiyi <strong>EN FAZLA 5 YIL</strong> süreyle verebilir.</div><ul><li>🔄 5 yıl sonunda genel kurul kararıyla süre <strong>uzatılabilir</strong>.</li><li>📌 Uzatma da maksimum 5 yıllık dönemler halinde olur.</li></ul>"
+          "id": 4,
+          "baslik": "İhraç, Halka Arz ve Kamuyu Aydınlatma",
+          "sorular": [
+            {
+              "soru": "6362 sayılı SPKn’ya göre 'ihraç' aşağıdakilerden hangisini ifade eder?",
+              "secenekler": ["Sermaye piyasası araçlarının borsada işlem görmesi", "Sermaye piyasası araçlarının ihraççı tarafından çıkarılıp satılması", "Yatırımcıların sermaye piyasası aracı satın alması", "Sermaye piyasası aracının geri alınması"],
+              "dogru": 1,
+              "aciklama": "İhraç, sermaye piyasası araçlarının ihraççı tarafından çıkarılıp satılmasıdır. (sayfa 21)"
+            },
+            {
+              "soru": "Halka arz edilerek yapılan ihraç ile halka arz edilmeksizin yapılan ihraç arasındaki temel fark nedir?",
+              "secenekler": ["Satış fiyatı", "Muhatap kitlesinin belirli veya belirsiz olması", "Vade süresi", "İhraççının türü"],
+              "dogru": 1,
+              "aciklama": "Temel fark, muhatap kitlesinin belirli veya belirsiz olmasıdır. (sayfa 21)"
+            }
+          ]
         },
         {
-          "title": "⚡ Özel Yetkiler",
-          "content": "<p>Yönetim kurulu aşağıdakileri <strong>ANCAK</strong> esas sözleşmede yetki varsa yapabilir:</p><ul><li>1️⃣ İmtiyazlı pay çıkarılması</li><li>2️⃣ Nominal değerin üzerinde/altında pay çıkarılması</li><li>3️⃣ Yeni pay alma haklarının sınırlandırılması</li></ul><div class='highlight-box' style='border-left-color:#ff3b30;'>❌ <strong>Yasak:</strong> Pay sahipleri arasında eşitsizlik yaratılamaz.</div>"
+          "id": 5,
+          "baslik": "Halka Açık Ortaklıklar ve Kurumsal Yönetim",
+          "sorular": [
+            {
+              "soru": "6362 sayılı SPKn’ya göre 'halka açık ortaklık' aşağıdakilerden hangisidir?",
+              "secenekler": ["Payları halka arz edilmiş veya halka arz edilmiş sayılan anonim ortaklıklar", "Sermaye piyasası aracı ihraç eden tüm tüzel kişiler", "Kolektif yatırım kuruluşları", "Borçlanma aracı ihraç eden şirketler"],
+              "dogru": 0,
+              "aciklama": "Halka açık ortaklık, payları halka arz edilmiş veya halka arz edilmiş sayılan anonim ortaklıklardır. (sayfa 31)"
+            },
+            {
+              "soru": "Pay sahibi sayısı kaçı aşan anonim ortaklıkların payları halka arz edilmiş sayılır?",
+              "secenekler": ["250", "500", "1000", "2000"],
+              "dogru": 1,
+              "aciklama": "Pay sahibi sayısı 500'ü aşanlar halka arz edilmiş sayılır. (sayfa 32)"
+            },
+            {
+              "soru": "Kayıtlı sermaye sisteminde yönetim kurulunun sermaye artırım yetkisi en fazla kaç yıl süreyle verilebilir?",
+              "secenekler": ["3 yıl", "4 yıl", "5 yıl", "10 yıl"],
+              "dogru": 2,
+              "aciklama": "Yönetim kuruluna bu yetki en fazla 5 yıl süreyle verilebilir. (sayfa 33)"
+            }
+          ]
         },
         {
-          "title": "🧠 Hafıza Tekniği",
-          "content": "<div style='background:#fff6e5; border-radius:16px; padding:20px; text-align:center; font-size:22px; font-weight:700; color:#003399;'>\"5 yıl yetki, 5 yıl uzat, 30 gün dava\"</div><div style='margin-top:16px;'><p>🔢 <strong>3 sayı:</strong> <span style='font-size:24px; font-weight:800;'>5 - 5 - 30</span></p></div>"
+          "id": 6,
+          "baslik": "Yatırım Hizmetleri ve Faaliyetleri",
+          "sorular": [
+            {
+              "soru": "Aşağıdakilerden hangisi 6362 sayılı SPKn’da sayılan yatırım hizmet ve faaliyetlerinden değildir?",
+              "secenekler": ["Portföy yöneticiliği", "Yatırım danışmanlığı", "Gayrimenkul değerleme", "Sermaye piyasası araçlarının halka arzında yüklenimde bulunularak satışa aracılık edilmesi"],
+              "dogru": 2,
+              "aciklama": "Gayrimenkul değerleme yatırım hizmeti değildir. (sayfa 45)"
+            },
+            {
+              "soru": "Yatırım hizmet ve faaliyetlerinde bulunabilmek için temel zorunluluk nedir?",
+              "secenekler": ["Ticaret siciline kayıt", "SPK’dan izin alınması", "Borsa üyeliği", "TSPB’ye kayıt"],
+              "dogru": 1,
+              "aciklama": "Yatırım hizmetleri için SPK'dan izin alınması zorunludur. (sayfa 48)"
+            }
+          ]
         },
         {
-          "title": "📌 Özet",
-          "content": "<ul><li>✅ Sermaye artırımı: <strong>Yönetim Kurulu</strong></li><li>⏳ Yetki süresi: <strong>5 yıl</strong> (uzatılabilir)</li><li>⚡ Özel yetkiler: <strong>Esas sözleşme</strong> şart</li><li>⚖️ İptal davası: <strong>30 gün</strong></li></ul><div style='margin-top:16px; background:#f0f4ff; padding:14px; border-radius:12px;'>📖 PDF Sayfa: <strong>33</strong> &nbsp;|&nbsp; 📜 Kanun Md.: <strong>SPKn 3/1-l, 34</strong></div>"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "badge": "📘 1.1.4.4.2 · Halka Açık Ortaklıklar",
-      "question": "Pay sahibi sayısı kaçı aşan anonim ortaklıkların payları halka arz edilmiş sayılır?",
-      "options": ["250", "500", "1000", "2000"],
-      "correctIndex": 1,
-      "likes": 890,
-      "comments": 45,
-      "explanation": "6362 sayılı SPKn md. 16'ya göre, pay sahibi sayısı <strong>500</strong>'ü aşan anonim ortaklıkların payları halka arz edilmiş sayılır. 📍 Kaynak: SPKn sayfa 32.",
-      "slides": [
+          "id": 7,
+          "baslik": "Sermaye Piyasası Kurumları (Yatırım Kuruluşları, Kolektif Yatırım, Takas, Saklama)",
+          "sorular": [
+            {
+              "soru": "6362 sayılı SPKn’ya göre 'yatırım kuruluşu' kavramı aşağıdakilerden hangisini kapsamaz?",
+              "secenekler": ["Aracı kurumlar", "Bankalar", "Gayrimenkul yatırım ortaklıkları", "Yatırım hizmeti ve faaliyetinde bulunmak üzere kuruluş esasları SPK’ca belirlenen kurumlar"],
+              "dogru": 2,
+              "aciklama": "GYO kolektif yatırım kuruluşudur, yatırım kuruluşu değildir. (sayfa 51)"
+            },
+            {
+              "soru": "Aracı kurumların kuruluşuna SPK tarafından izin verilebilmesi için paylarının ne şekilde olması zorunludur?",
+              "secenekler": ["Hamili ne yazılı", "Nama yazılı", "Kaydi", "Fiziki"],
+              "dogru": 1,
+              "aciklama": "Aracı kurumların payları nama yazılı olmak zorundadır. (sayfa 51)"
+            }
+          ]
+        },
         {
-          "title": "📚 Halka Açık Ortaklık",
-          "content": "<p><strong>Halka açık ortaklık:</strong> Payları halka arz edilmiş veya halka arz edilmiş sayılan anonim ortaklıklardır.</p><ul><li>🔑 500 ortak sınırı</li><li>📌 Borsada işlem görme zorunluluğu</li></ul>"
+          "id": 8,
+          "baslik": "Yatırımcı Tazmin Merkezi ve Tedrici Tasfiye",
+          "sorular": [
+            {
+              "soru": "Yatırımcı Tazmin Merkezi (YTM) hangi statüdedir?",
+              "secenekler": ["Özel hukuk tüzel kişisi", "Kamu tüzel kişiliği", "Dernek", "Banka"],
+              "dogru": 1,
+              "aciklama": "YTM kamu tüzel kişiliğine sahiptir. (sayfa 65)"
+            },
+            {
+              "soru": "YTM’nin mal varlığı ile ilgili aşağıdakilerden hangisi doğrudur?",
+              "secenekler": ["Haczedilebilir", "Teminat gösterilebilir", "Amacı dışında kullanılamaz ve haczedilemez", "İflas masasına dahil edilebilir"],
+              "dogru": 2,
+              "aciklama": "YTM mal varlığı amacı dışında kullanılamaz ve haczedilemez. (sayfa 65)"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "baslik": "Denetim, Tedbirler ve Yaptırımlar",
+          "sorular": [
+            {
+              "soru": "SPK denetiminde, kendilerinden bilgi istenen kişiler bilgi vermekten hangi gerekçeyle imtina edemez?",
+              "secenekler": ["Ticari sır", "Gizlilik hükümleri", "Kişisel veri koruma", "Hiçbiri"],
+              "dogru": 1,
+              "aciklama": "Özel kanunlarındaki sır saklama hükümleri ileri sürülemez. (sayfa 69)"
+            },
+            {
+              "soru": "Kanuna aykırı ihraç eylemlerinde, SPK aşağıdakilerden hangisini yapmaya yetkilidir?",
+              "secenekler": ["Doğrudan ceza verme", "İhtiyati tedbir ve ihtiyati haciz isteme", "İhracı onaylama", "İhraççıyı iflasa sevk etme"],
+              "dogru": 1,
+              "aciklama": "SPK, ihtiyati tedbir ve ihtiyati haciz isteme yetkisine sahiptir. (sayfa 69-70)"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "baslik": "Sermaye Piyasası Suçları ve İdari Para Cezaları",
+          "sorular": [
+            {
+              "soru": "6362 sayılı SPKn’da 'bilgi suistimali' suçunun cezası nedir?",
+              "secenekler": ["2 yıldan 5 yıla kadar hapis veya adli para cezası", "3 yıldan 5 yıla kadar hapis veya adli para cezası", "5 yıldan 10 yıla kadar hapis", "Sadece adli para cezası"],
+              "dogru": 1,
+              "aciklama": "Bilgi suistimali suçu 3 yıldan 5 yıla kadar hapis veya adli para cezasıdır. (sayfa 77)"
+            },
+            {
+              "soru": "Piyasa dolandırıcılığı suçunun işleme dayalı türünde verilecek adli para cezası ne kadardan az olamaz?",
+              "secenekler": ["5.000 gün", "Elde edilen menfaatten az olamaz", "10.000 gün", "Menfaatin iki katı"],
+              "dogru": 1,
+              "aciklama": "Verilecek ceza, elde edilen menfaatten az olamaz. (sayfa 77)"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "baslik": "TSPB Meslek Kuralları ve Etik İlkeler",
+          "sorular": [
+            {
+              "soru": "TSPB Disiplin Yönetmeliği’ne göre en hafif disiplin cezası hangisidir?",
+              "secenekler": ["Kınama", "Uyarı", "Birlik üyeliğinden geçici çıkarma", "Birlik üyeliğinden sürekli çıkarma"],
+              "dogru": 1,
+              "aciklama": "Uyarı, en hafif disiplin cezasıdır. (sayfa 414)"
+            },
+            {
+              "soru": "Sermaye piyasası çalışanlarının uyması gereken etik ilkeler arasında aşağıdakilerden hangisi yer almaz?",
+              "secenekler": ["Bağımsızlık ve dürüstlük", "Özen ve titizlik", "Rekabeti kısıtlama", "Sır saklama"],
+              "dogru": 2,
+              "aciklama": "Rekabeti kısıtlama etik ilke değildir. (sayfa 380-395)"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "baslik": "Özel Durumlar Tebliği ve Kamuyu Aydınlatma",
+          "sorular": [
+            {
+              "soru": "İçsel bilgi, aşağıdakilerden hangisini ifade eder?",
+              "secenekler": ["Kamuya açıklanmış tüm bilgiler", "Sermaye piyasası araçlarının değerini etkileyebilecek henüz kamuya açıklanmamış bilgi", "Yalnızca finansal tablolar", "Sadece yönetim kurulu kararları"],
+              "dogru": 1,
+              "aciklama": "İçsel bilgi, henüz kamuya açıklanmamış ve fiyatı etkileyebilecek bilgidir. (sayfa 85)"
+            },
+            {
+              "soru": "Sermaye yapısındaki değişikliklerde hangi oranlar için bildirim yapılması zorunludur?",
+              "secenekler": ["%1, %5, %10", "%5, %10, %15, %20, %25, %33, %50, %67, %95", "%10, %25, %50, %75", "%5, %20, %50, %90"],
+              "dogru": 1,
+              "aciklama": "Bildirim oranları: %5, %10, %15, %20, %25, %33, %50, %67, %95 (sayfa 90)"
+            }
+          ]
         }
       ]
     }
+    // Diğer 11 modül benzer yapıda eklenecek...
   ]
 }
